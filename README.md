@@ -8,7 +8,8 @@ Analysis tool for Go GORM
 ```go tool pprof -seconds 30 http://0.0.0.0:8080/debug/pprof/profile```
 
 **Run benchmark:**  
-```ab -k -c 8 -n 100000 "http://0.0.0.0:8080/queries_rows?n=50"```
+```ab -k -c 8 -n 100000 "http://0.0.0.0:8080/queries_rows?n=50"```  
+n = number of rows
 
 *At **Profiler** terminal: use command ```web``` to see the graph.
 ```
