@@ -9,9 +9,9 @@ Analysis tool for Go GORM
 
 **Run benchmark:**  
 ```ab -k -c 8 -n 100000 "http://0.0.0.0:8080/query?n=50"```  
-n = number of rows
+**n = number of rows*
 
-*At **Profiler** terminal: use command ```web``` to see the graph.
+**At **Profiler** terminal: use command ```web``` to see the graph.*
 ```
 $ go tool pprof -seconds 60 http://0.0.0.0:8080/debug/pprof/profile
 Fetching profile over HTTP from http://0.0.0.0:8080/debug/pprof/profile?seconds=60
